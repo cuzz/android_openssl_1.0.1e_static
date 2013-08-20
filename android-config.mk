@@ -7,7 +7,7 @@
 # This script performs minor but required patching for the Android build.
 #
 
-LOCAL_CFLAGS += $(openssl_cflags)
+LOCAL_CFLAGS += $(openssl_cflags) -fno-strict-aliasing
 
 LOCAL_CFLAGS := $(filter-out -DTERMIO, $(LOCAL_CFLAGS))
 

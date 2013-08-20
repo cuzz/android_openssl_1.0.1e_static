@@ -11,5 +11,3 @@ include $(LOCAL_PATH)/build-config.mk
 include $(LOCAL_PATH)/Crypto.mk
 include $(LOCAL_PATH)/Ssl.mk
 include $(LOCAL_PATH)/Apps.mk
-
-LOCAL_CFLAGS += -fno-strict-aliasing 
